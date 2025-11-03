@@ -33,9 +33,11 @@ int main() {
         cin >> numbers[i]; 
     } 
 
+    // int sum = 0;
     for (int i = 0; i < length; i++) { 
         cout << "Numbers[" << i << "] = " << numbers[i];
         cout << "\n";
+        // sum = sum + numbers[i];
     }
 
     return 0;
