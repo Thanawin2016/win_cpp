@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+    int main() {
+        char q;
+
+        cout << "Input your h. y or n:";
+	 	cin >> q;
+
+    while (q == 'y') {
+		
+
+		cout << "Hello World by: ...";
+        cout << "h.....\n";
+        cout << "jhghyubvjkyjhbnyjloregiyhrjgtjhrtkberhkirh\n";
+
+	}
+	return 0;
+}
