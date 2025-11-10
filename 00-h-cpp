@@ -13,7 +13,6 @@ using namespace std;
 
 		cout << "Hello World by: ...";
         cout << "h.....\n";
-        cout << "jhghyubvjkyjhbnyjloregiyhrjgtjhrtkberhkirh\n";
 
 	}
 	return 0;
