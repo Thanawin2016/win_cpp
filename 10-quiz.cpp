@@ -6,6 +6,9 @@ using namespace std;
 int main() {
     int q;
     int w;
+    int e;
+
+    e == 0;
 
     // Get a different random number each time the program runs
     srand(time(0));
@@ -24,11 +27,13 @@ int main() {
 
     if (q == w ) {
         cout << "Your answer is correct";
+        e == 1;
     } else {
-        cout << "Your answer is wrong, Answer is " << w;
+        cout << "Your answer is wrong, Answer is " << w ;
     }
 
-
+    cout << "\n";
+    cout << "your score is 1";
 
     return 0;
 }
