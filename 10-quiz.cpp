@@ -8,6 +8,7 @@ int main() {
     int w;
     int e = 0;
     int r;
+    string grade;
 
     // Get a different random number each time the program runs
     srand(time(0));
@@ -37,7 +38,25 @@ int main() {
     }                    
 
     cout << "\n";
-    cout << "Your score is " << e << "/" << r;
+    cout << "Your score is " << e << "/" << r << "\n";
+
+    if ( e >= 5 ) {
+        grade = "A+";
+    } else if ( e >= 4 ) {
+        grade = "A";
+    } else if ( e >= 3 ) {
+        grade = "C";
+    } else if ( e >= 2 ) {
+        grade = "D";
+    } else {
+        grade = "F";                                                                                
+    }
+    
+    if (grade != "") {
+        cout << "Your grade is " << grade << "\n"; 
+    }
+
+    cout << "(-----------)";
 
     return 0;
 }
