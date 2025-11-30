@@ -35,11 +35,15 @@ int main() {
                 cout << "AI:= scissors";
             }
 
-            if (q == random1)
-            {
+            
+             if (q == random1) {
                 cout << "no one is win";
             } else if (q < random1 && random1 < 2) {
                 cout << "AI is win";
+            } else if (random1 < q && q < 2) {
+                cout << "you is win";
+            } else if (q < random1 && q < 1) {
+                cout << "you is win";
             }
             
 
