@@ -28,24 +28,21 @@ int main() {
             }
         
             if (random1 == 0) {
-                cout << "AI:= hammer";
+                cout << "AI:= hammer\n";
             } else if (random1 == 1) {
-                cout << "AI:= paper";
+                cout << "AI:= paper\n";
             } else if (random1 == 2) {
-                cout << "AI:= scissors";
+                cout << "AI:= scissors\n";
             }
 
             
              if (q == random1) {
-                cout << "no one is win";
-            } else if (q < random1 && random1 < 2) {
+                cout << "No one is win";
+            } else if (q == 0 && random1 == 1 || q == 1 && random1 == 2 || q == 2 && random1 == 0) {
                 cout << "AI is win";
-            } else if (random1 < q && q < 2) {
-                cout << "you is win";
-            } else if (q < random1 && q < 1) {
+            } else {
                 cout << "you is win";
             }
-            
 
 
     return 0;
