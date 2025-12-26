@@ -16,7 +16,7 @@ int main() {
 
         // Generate a random integer
         int rawNumber1 = rand();
-        int random1 = (rawNumber1 % 9);
+        int random1 = (rawNumber1 % 3);
 
         cout << "0 = :hammer: 1 = :paper: 2 = :scissors:\n";
         cout << ":Input your operation:";
@@ -38,19 +38,9 @@ int main() {
             cout << "AI:= hammer\n";
         } else if (random1 == 1) {
             cout << "AI:= paper\n";
-        } else if (random1 == 2) {
+        } else {
             cout << "AI:= scissors\n";
-        } else if (random1 == 3) {
-            cout << "AI:= paper\n";
-        } else if (random1 == 4) {
-            cout << "AI:= scissors\n";
-        } else if (random1 == 5) {
-            cout << "AI:= scissors\n";
-        } else if (random1 == 6) {
-            cout << "AI:= paper\n";
-        } else if (random1 == 7) {
-            cout << "AI:= scissors\n";      
-        }
+        } 
 
         // Check winner
         if (q == random1) {
