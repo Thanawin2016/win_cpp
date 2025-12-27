@@ -44,7 +44,8 @@ int main() {
 
         // Check winner
         if (q == random1) {
-            cout << "No one is win\n";
+            cout << "No one is win, try again\n";
+            continue;
         } else if (q == 0 && random1 == 1 || q == 1 && random1 == 2 || q == 2 && random1 == 0) {
             cout << "AI is win\n";
         } else {
